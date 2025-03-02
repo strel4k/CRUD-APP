@@ -1,4 +1,6 @@
 package com.example.crud.repository;
 
-public class WriterRepository {
+import com.example.crud.model.Writer;
+
+public interface WriterRepository extends GenericRepository<Writer, Integer> {
 }

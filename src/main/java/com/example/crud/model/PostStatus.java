@@ -1,4 +1,7 @@
 package com.example.crud.model;
 
-public class PostStatus {
+public enum PostStatus {
+    ACTIVE,
+    UNDER_REVIEW,
+    DELETED;
 }

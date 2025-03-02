@@ -1,4 +1,6 @@
 package com.example.crud.repository;
 
-public class LabelRepository {
+import com.example.crud.model.Label;
+
+public interface LabelRepository extends GenericRepository<Label, Integer> {
 }

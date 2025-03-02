@@ -1,4 +1,6 @@
 package com.example.crud.repository;
 
-public class PostRepository {
+import com.example.crud.model.Post;
+
+public interface PostRepository extends GenericRepository<Post, Integer> {
 }
